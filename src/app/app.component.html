@@ -1,9 +1,10 @@
 <mat-toolbar color="primary">
+  <mat-icon routerLink="/user/navigation">menu</mat-icon>
   <mat-icon svgIcon="lemon"></mat-icon>
-  <a mat-button routerLink="/home"><h1>Lemon Mart</h1></a>
+  <a mat-button routerLink="/home"><span class="mat-h2">Lemon Mart</span></a>
   <span class="flex-spacer"></span>
-  <button mat-icon-button><mat-icon>account_circle</mat-icon></button>
-  <button mat-icon-button><mat-icon>lock_open</mat-icon></button>
+  <button mat-mini-fab routerLink="/user/profile" matTooltip="Profile" aria-label="User Profile"><mat-icon>account_circle</mat-icon></button>
+  <button mat-mini-fab routerLink="/user/logout" matTooltip="Logout" aria-label="Logout"><mat-icon>lock_open</mat-icon></button>
 </mat-toolbar>
 
 <router-outlet></router-outlet>

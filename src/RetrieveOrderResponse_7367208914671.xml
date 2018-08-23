@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns7:RetrieveOrderResponseType xmlns:ns7="urn:expedia:om:order:messages:v1" xmlns:ns1="urn:expedia:om:common:defn:v1" xmlns:ns10="urn:expedia:payment:messages:v1" xmlns:ns11="urn:expedia:payment:vault:messages:v2" xmlns:ns12="urn:expedia:e3:insurance:basetypes:v2" xmlns:ns13="urn:expedia:e3:data:placetypes:defn:v4" xmlns:ns14="urn:expedia:e3:data:persontypes:defn:v4" xmlns:ns15="urn:expedia:e3:partnerlty:sterling:types:v1" xmlns:ns16="urn:expedia:e3:es:userservice:messages:v2" xmlns:ns17="urn:expedia:e3:ss:lodging:lodginginterface:commontypes:defn:v4" xmlns:ns18="urn:expedia:e3:ss:lodging:lodginginterface:bookingcommontypes:defn:v2" xmlns:ns19="urn:expedia:e3:data:timetypes:defn:v4" xmlns:ns20="urn:expedia:e3:ss:lodging:lodginginterface:changecommontypes:defn:v1" xmlns:ns21="urn:expedia:e3:data:revitemtypes:defn:v1" xmlns:ns22="urn:expedia:e3:cpn:domain:basetypes:defn:v2" xmlns:ns23="urn:expedia:e3:cpn:domain:activitytypes:defn:v1" xmlns:ns24="urn:expedia:e3:cpn:domain:contentprovidertypes:defn:v1" xmlns:ns25="urn:expedia:e3:data:airtypes:defn:v6" xmlns:ns26="urn:expedia:e3:shop:packages:messages:common:defn:v3" xmlns:ns27="urn:expedia:e3:ss:lodging:lodginginterface:commontypes:defn:v3" xmlns:ns28="urn:expedia:e3:shop:packages:messages:ordertypes:defn:v1" xmlns:ns29="urn:expedia:e3:data:traveltypes:defn:v4" xmlns:ns3="urn:expedia:e3:data:financetypes:defn:v4" xmlns:ns30="urn:expedia:om:supply:generic:defn:v1" xmlns:ns31="urn:expedia:om:supply:messages:defn:v1" xmlns:ns32="urn:expedia:om:supply:datatype:defn:v1" xmlns:ns33="urn:expedia:finadj:common:defn:v1" xmlns:ns34="urn:expedia:e3:insurance:basetypes:v1" xmlns:ns35="urn:expedia:e3:shop:packages:messages:changetypes:defn:v1" xmlns:ns36="urn:expedia:e3:shop:presto:datatype:v1" xmlns:ns37="urn:expedia:e3:data:cartypes:defn:v5" xmlns:ns38="urn:expedia:s3:edx:data:edxtypes:defn:v1" xmlns:ns39="urn:expedia:e3:ean:data:defn:v1" xmlns:ns4="urn:expedia:e3:data:basetypes:defn:v4" xmlns:ns40="urn:expedia:payment:omsadapter:types:v1" xmlns:ns5="urn:expedia:e3:data:financetypes:defn:v5" xmlns:ns6="urn:expedia:om:datatype:defn:v1" xmlns:ns8="urn:expedia:payment:processor:messages:v2" xmlns:ns9="urn:expedia:payment:system:types:v2">
+   <ns1:MessageInfo CreateDateTime="2018-08-22T21:40:07.434Z" MessageGUID="a1777027-2617-43af-816e-702c8bbb0160" TransactionGUID="61cac41d-4df6-4ee5-8101-6cefd8b53cc4">
+      <ns1:DebugTraceBoolean>false</ns1:DebugTraceBoolean>
+   </ns1:MessageInfo>
+   <ns1:MessageStatus>
+      <ns1:Status>Success</ns1:Status>
+   </ns1:MessageStatus>
+   <ns1:OrderList>
+      <ns1:Order>
+         <ns1:OrderNumber>8142998775408</ns1:OrderNumber>
+         <ns1:OrderId>-9223372035129025823</ns1:OrderId>
+         <ns1:OrderVersion>7</ns1:OrderVersion>
+         <ns1:OrderSiteInfo>
+            <ns1:LegacySiteKey>
+               <ns1:TPID>70207</ns1:TPID>
+               <ns1:EAPID>0</ns1:EAPID>
+               <ns1:GPID>0</ns1:GPID>
+            </ns1:LegacySiteKey>
+            <ns1:Language>
+               <ns1:LanguageCode>en</ns1:LanguageCode>
+               <ns1:CountryAlpha2Code>US</ns1:CountryAlpha2Code>
+            </ns1:Language>
+            <ns1:LanguageId>1033</ns1:LanguageId>
+            <ns1:ClientID>9</ns1:ClientID>
+            <ns1:GroupAccountID>0</ns1:GroupAccountID>
+            <ns1:CompanyCode>10111</ns1:CompanyCode>
+            <ns1:ManagementUnitCode>4032</ns1:ManagementUnitCode>
+            <ns1:JurisdictionCode>USA</ns1:JurisdictionCode>
+            <ns1:SourceSystemCode>1</ns1:SourceSystemCode>
+            <ns1:SourceSystemOrder>
+               <ns1:Source>Traditional Browser</ns1:Source>
+            </ns1:SourceSystemOrder>
+            <ns1:PointOfSaleOrderReferenceNumber>7367208914671</ns1:PointOfSaleOrderReferenceNumber>
+            <ns1:ClientOrderReferenceCode>47ea56c0-681a-4391-a3d5-db1d727277d1</ns1:ClientOrderReferenceCode>
+         </ns1:OrderSiteInfo>
+         <ns1:OrderCreateDate>2018-07-19T16:15:36-07:00</ns1:OrderCreateDate>
+         <ns1:LastUpdateDate>2018-08-22T14:40:08.295-07:00</ns1:LastUpdateDate>
+         <ns1:OrderStatus>Booked</ns1:OrderStatus>
+         <ns1:OrderLineList>
+            <ns1:OrderLine>
+               <ns1:OrderLineSequence>1</ns1:OrderLineSequence>
+               <ns1:OrderLineGUID>ffe1625b-bbb7-4783-88e0-d0954c83d855</ns1:OrderLineGUID>
+               <ns1:OrderLineType>13</ns1:OrderLineType>
+               <ns1:OrderLineCreateDate>2018-07-19T16:15:36.833-07:00</ns1:OrderLineCreateDate>
+               <ns1:LastUpdateDate>2018-08-22T14:40:08.295-07:00</ns1:LastUpdateDate>
+               <ns1:OrderLineStatus>Booked</ns1:OrderLineStatus>
+               <ns1:OrderLineData namespace="urn:expedia:e3:data:airtypes:defn:v6" type="FlightPurchaseRecord">
+                  <air:FlightPurchaseRecord xmlns:air="urn:expedia:e3:data:airtypes:defn:v6" xmlns:ns10="urn:expedia:e3:data:placetypes:defn:v4" xmlns:ns11="urn:expedia:e3:data:persontypes:defn:v4" xmlns:ns2="urn:expedia:om:common:defn:v1" xmlns:ns3="urn:expedia:om:order:messages:v1" xmlns:ns4="urn:expedia:e3:data:financetypes:defn:v5" xmlns:ns5="urn:expedia:e3:data:basetypes:defn:v4" xmlns:ns7="urn:expedia:e3:data:financetypes:defn:v4" xmlns:ns8="urn:expedia:om:order:reconstructtypes:v1" xmlns:ns9="urn:expedia:e3:data:timetypes:defn:v4">
+                     <air:AirRecordItem>
+                        <air:AirRecordLocator>416747623</air:AirRecordLocator>
+                        <air:AirItineraryNumber>7367208914671</air:AirItineraryNumber>
+                        <air:AirRecordState>P</air:AirRecordState>
+                        <air:AirTravelerList>
+                           <air:AirTraveler xmlns:ns1="urn:expedia:e3:data:basetypes:defn:v4" ns1:SequenceIndex="1">
+                              <person:Person xmlns:person="urn:expedia:e3:data:persontypes:defn:v4">
+                                 <person:PersonName>
+                                    <person:FirstName>RICHARD E</person:FirstName>
+                                    <person:LastName>BRIGHTMAN</person:LastName>
+                                 </person:PersonName>
+                              </person:Person>
+                              <air:SecurityDocumentPersonName>
+                                 <person:FirstName xmlns:person="urn:expedia:e3:data:persontypes:defn:v4">RICHARD E</person:FirstName>
+                                 <person:LastName xmlns:person="urn:expedia:e3:data:persontypes:defn:v4">BRIGHTMAN</person:LastName>
+                              </air:SecurityDocumentPersonName>
+                              <air:AirTravelerCategory>
+                                 <air:AirTravelerCategoryCode>adult</air:AirTravelerCategoryCode>
+                                 <air:AirTravelerCategoryCount>1</air:AirTravelerCategoryCount>
+                                 <air:AirPassengerTypeCode>ADT</air:AirPassengerTypeCode>
+                                 <air:AirPassengerCRSPriceCode>ADT</air:AirPassengerCRSPriceCode>
+                              </air:AirTravelerCategory>
+                              <air:AirTravelerProductAssociationList>
+                                 <air:AirTravelerProductAssociation>
+                                    <air:AirProductReferenceIndex>1</air:AirProductReferenceIndex>
+                                    <air:AirTravelerProviderNumberString>1.1</air:AirTravelerProviderNumberString>
+                                 </air:AirTravelerProductAssociation>
+                              </air:AirTravelerProductAssociationList>
+                           </air:AirTraveler>
+                        </air:AirTravelerList>
+                        <air:AirProductBookedList>
+                           <air:AirProductBooked xmlns:ns1="urn:expedia:e3:data:basetypes:defn:v4" ns1:SequenceIndex="1">
+                              <air:AirItinerary>
+                                 <air:AirOriginDestinationList>
+                                    <air:AirOriginDestination ns1:SequenceIndex="1">
+                                       <air:AirSegmentList>
+                                          <air:AirSegment xmlns:ns8="urn:expedia:e3:data:airtypes:defn:v6" ns1:SequenceIndex="1" ns8:AirProviderCode="Sabre">
+                                             <ns8:AirCarrierCode>BA</ns8:AirCarrierCode>
+                                             <ns8:FlightNumber>994</ns8:FlightNumber>
+                                             <ns8:DepartureAirportCode>LHR</ns8:DepartureAirportCode>
+                                             <ns8:ArrivalAirportCode>TXL</ns8:ArrivalAirportCode>
+                                             <time:StartDateTime xmlns:time="urn:expedia:e3:data:timetypes:defn:v4">2018-09-11T17:05:00-00:00</time:StartDateTime>
+                                             <time:EndDateTime xmlns:time="urn:expedia:e3:data:timetypes:defn:v4">2018-09-11T20:00:00+01:00</time:EndDateTime>
+                                             <ns8:AirSegmentStopCount>0</ns8:AirSegmentStopCount>
+                                             <ns8:AccumulatedDuration>P0Y0M0DT1H55M0S</ns8:AccumulatedDuration>
+                                             <ns8:AirSegmentMarriedToPreviousBoolean>false</ns8:AirSegmentMarriedToPreviousBoolean>
+                                             <ns8:AirLegList>
+                                                <ns8:AirLeg ns1:SequenceIndex="1">
+                                                   <ns8:DepartureAirportCode>LHR</ns8:DepartureAirportCode>
+                                                   <ns8:ArrivalAirportCode>TXL</ns8:ArrivalAirportCode>
+                                                   <time:StartDateTime xmlns:time="urn:expedia:e3:data:timetypes:defn:v4">2018-09-11T17:05:00-00:00</time:StartDateTime>
+                                                   <time:EndDateTime xmlns:time="urn:expedia:e3:data:timetypes:defn:v4">2018-09-11T20:00:00+01:00</time:EndDateTime>
+                                                   <ns8:OperatingAirCarrierCode>BA</ns8:OperatingAirCarrierCode>
+                                                   <ns8:OperatingFlightNumber>994</ns8:OperatingFlightNumber>
+                                                   <ns8:FlightEquipmentCode>319</ns8:FlightEquipmentCode>
+                                                   <ns8:ElapsedDuration>P0Y0M0DT1H55M0S</ns8:ElapsedDuration>
+                                                </ns8:AirLeg>
+                                             </ns8:AirLegList>
+                                          </air:AirSegment>
+                                       </air:AirSegmentList>
+                                    </air:AirOriginDestination>
+                                    <air:AirOriginDestination ns1:SequenceIndex="2">
+                                       <air:AirSegmentList>
+                                          <air:AirSegment xmlns:ns8="urn:expedia:e3:data:airtypes:defn:v6" ns1:SequenceIndex="1" ns8:AirProviderCode="Sabre">
+                                             <ns8:AirCarrierCode>BA</ns8:AirCarrierCode>
+                                             <ns8:FlightNumber>981</ns8:FlightNumber>
+                                             <ns8:DepartureAirportCode>TXL</ns8:DepartureAirportCode>
+                                             <ns8:ArrivalAirportCode>LHR</ns8:ArrivalAirportCode>
+                                             <time:StartDateTime xmlns:time="urn:expedia:e3:data:timetypes:defn:v4">2018-09-15T07:10:00+01:00</time:StartDateTime>
+                                             <time:EndDateTime xmlns:time="urn:expedia:e3:data:timetypes:defn:v4">2018-09-15T08:15:00-00:00</time:EndDateTime>
+                                             <ns8:AirSegmentStopCount>0</ns8:AirSegmentStopCount>
+                                             <ns8:AccumulatedDuration>P0Y0M0DT2H5M0S</ns8:AccumulatedDuration>
+                                             <ns8:AirSegmentMarriedToPreviousBoolean>false</ns8:AirSegmentMarriedToPreviousBoolean>
+                                             <ns8:AirLegList>
+                                                <ns8:AirLeg ns1:SequenceIndex="1">
+                                                   <ns8:DepartureAirportCode>TXL</ns8:DepartureAirportCode>
+                                                   <ns8:ArrivalAirportCode>LHR</ns8:ArrivalAirportCode>
+                                                   <time:StartDateTime xmlns:time="urn:expedia:e3:data:timetypes:defn:v4">2018-09-15T07:10:00+01:00</time:StartDateTime>
+                                                   <time:EndDateTime xmlns:time="urn:expedia:e3:data:timetypes:defn:v4">2018-09-15T08:15:00-00:00</time:EndDateTime>
+                                                   <ns8:OperatingAirCarrierCode>BA</ns8:OperatingAirCarrierCode>
+                                                   <ns8:OperatingFlightNumber>981</ns8:OperatingFlightNumber>
+                                                   <ns8:FlightEquipmentCode>321</ns8:FlightEquipmentCode>
+                                                   <ns8:ElapsedDuration>P0Y0M0DT2H5M0S</ns8:ElapsedDuration>
+                                                </ns8:AirLeg>
+                                             </ns8:AirLegList>
+                                          </air:AirSegment>
+                                       </air:AirSegmentList>
+                                    </air:AirOriginDestination>
+                                 </air:AirOriginDestinationList>
+                              </air:AirItinerary>
+                              <air:AirBookingDetails>
+                                 <air:AirBookingSegmentList>
+                                    <air:AirBookingSegment ns1:SequenceIndex="1">
+                                       <air:AirBookingCode>N</air:AirBookingCode>
+                                       <air:AirCabinCategoryCode>coach</air:AirCabinCategoryCode>
+                                       <air:AirCarrierLocator>RVBN3Z</air:AirCarrierLocator>
+                                       <air:AirSegmentReference>
+                                          <air:AirOriginDestinationReferenceIndex>1</air:AirOriginDestinationReferenceIndex>
+                                          <air:AirSegmentReferenceIndex>1</air:AirSegmentReferenceIndex>
+                                       </air:AirSegmentReference>
+                                    </air:AirBookingSegment>
+                                    <air:AirBookingSegment ns1:SequenceIndex="2">
+                                       <air:AirBookingCode>V</air:AirBookingCode>
+                                       <air:AirCabinCategoryCode>coach</air:AirCabinCategoryCode>
+                                       <air:AirCarrierLocator>RVBN3Z</air:AirCarrierLocator>
+                                       <air:AirSegmentReference>
+                                          <air:AirOriginDestinationReferenceIndex>2</air:AirOriginDestinationReferenceIndex>
+                                          <air:AirSegmentReferenceIndex>1</air:AirSegmentReferenceIndex>
+                                       </air:AirSegmentReference>
+                                    </air:AirBookingSegment>
+                                 </air:AirBookingSegmentList>
+                                 <air:AirBookingProviderCode>Sabre</air:AirBookingProviderCode>
+                                 <air:AirProviderRetrieveAccess>on</air:AirProviderRetrieveAccess>
+                                 <air:AirProviderLocator>KSYDPS</air:AirProviderLocator>
+                                 <air:AirProviderAgencyOfficeCode>L9WI</air:AirProviderAgencyOfficeCode>
+                                 <air:AirProviderAgencyAccountCode>1464432</air:AirProviderAgencyAccountCode>
+                                 <air:AirProviderCustomerAccountCode>0270001000</air:AirProviderCustomerAccountCode>
+                              </air:AirBookingDetails>
+                              <air:AirBookingState>Confirmed</air:AirBookingState>
+                              <air:AirFareDetailsBooked>
+                                 <air:AirFareCategoryCode>Published</air:AirFareCategoryCode>
+                                 <air:AirPurchaseCategoryCode>standalone</air:AirPurchaseCategoryCode>
+                                 <air:AirFareFilingCategoryCode>U</air:AirFareFilingCategoryCode>
+                                 <air:TicketingAirCarrierCode>BA</air:TicketingAirCarrierCode>
+                                 <air:AirCabinCategoryCode>coach</air:AirCabinCategoryCode>
+                                 <air:AirFareDetailsList>
+                                    <air:AirFareDetails xmlns:ns8="urn:expedia:e3:data:airtypes:defn:v6" ns1:SequenceIndex="1" ns8:AirProviderCode="Sabre">
+                                       <ns8:AirPassengerTypeCode>ADT</ns8:AirPassengerTypeCode>
+                                       <ns8:AirFareComponentList>
+                                          <ns8:AirFareComponent ns1:SequenceIndex="1" ns8:AirProviderCode="Sabre">
+                                             <ns8:AirCarrierCode>BA</ns8:AirCarrierCode>
+                                             <ns8:AirFareBasisCode>NV2R</ns8:AirFareBasisCode>
+                                             <ns8:DepartureAirportCode>LHR</ns8:DepartureAirportCode>
+                                             <ns8:ArrivalAirportCode>TXL</ns8:ArrivalAirportCode>
+                                             <time:StartDateTime xmlns:time="urn:expedia:e3:data:timetypes:defn:v4">2018-09-11T17:05:00-00:00</time:StartDateTime>
+                                             <ns8:TicketDateTime>2018-07-19T23:16:00</ns8:TicketDateTime>
+                                          </ns8:AirFareComponent>
+                                          <ns8:AirFareComponent ns1:SequenceIndex="2" ns8:AirProviderCode="Sabre">
+                                             <ns8:AirCarrierCode>BA</ns8:AirCarrierCode>
+                                             <ns8:AirFareBasisCode>VV2R</ns8:AirFareBasisCode>
+                                             <ns8:DepartureAirportCode>TXL</ns8:DepartureAirportCode>
+                                             <ns8:ArrivalAirportCode>LHR</ns8:ArrivalAirportCode>
+                                             <time:StartDateTime xmlns:time="urn:expedia:e3:data:timetypes:defn:v4">2018-09-15T07:10:00+01:00</time:StartDateTime>
+                                             <ns8:TicketDateTime>2018-07-19T23:16:00</ns8:TicketDateTime>
+                                          </ns8:AirFareComponent>
+                                       </ns8:AirFareComponentList>
+                                       <ns8:AirFareBaseCurrencyAmount>
+                                          <ns1:SimpleAmount>222.00</ns1:SimpleAmount>
+                                          <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                                       </ns8:AirFareBaseCurrencyAmount>
+                                       <ns8:AirFareTaxesCurrencyAmount>
+                                          <ns1:SimpleAmount>77.50</ns1:SimpleAmount>
+                                          <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                                       </ns8:AirFareTaxesCurrencyAmount>
+                                       <ns8:AirFareInstantPurchaseBoolean>false</ns8:AirFareInstantPurchaseBoolean>
+                                    </air:AirFareDetails>
+                                 </air:AirFareDetailsList>
+                              </air:AirFareDetailsBooked>
+                              <air:AirFareState>Valid</air:AirFareState>
+                              <air:AirFulfillmentDetailsBooked>
+                                 <air:AirFulfillmentMethod>ETicket</air:AirFulfillmentMethod>
+                                 <air:AirDeliveryMethod />
+                                 <air:AirFulfillmentDetailsList>
+                                    <air:AirFulfillmentDetails>
+                                       <air:AirPassengerTypeCode>ADT</air:AirPassengerTypeCode>
+                                       <air:TicketingAirCarrierCode>BA</air:TicketingAirCarrierCode>
+                                       <air:AirTicketTourCode />
+                                       <air:AirTicketEndorsementOverride />
+                                       <air:AirCommissionCurrencyAmount>
+                                          <ns1:SimpleAmount>0.0000</ns1:SimpleAmount>
+                                          <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                                       </air:AirCommissionCurrencyAmount>
+                                       <air:AirCompensationDescriptionString />
+                                    </air:AirFulfillmentDetails>
+                                 </air:AirFulfillmentDetailsList>
+                                 <air:AirTicketList>
+                                    <air:AirTicket>
+                                       <air:AirTicketNumber>1257165232507</air:AirTicketNumber>
+                                       <air:AirTravelerReferenceIndex>1</air:AirTravelerReferenceIndex>
+                                       <air:ElectronicTicketBoolean>true</air:ElectronicTicketBoolean>
+                                       <air:AirTicketCouponList>
+                                          <air:AirTicketCoupon>
+                                             <air:AirTicketCouponStatus>O</air:AirTicketCouponStatus>
+                                             <air:AirCarrierCode>BA</air:AirCarrierCode>
+                                             <air:FlightNumber>994</air:FlightNumber>
+                                             <air:DepartureAirportCode>LHR</air:DepartureAirportCode>
+                                             <air:ArrivalAirportCode>TXL</air:ArrivalAirportCode>
+                                             <time:StartDateTime xmlns:time="urn:expedia:e3:data:timetypes:defn:v4">2018-09-11T17:05:00-00:00</time:StartDateTime>
+                                             <air:AirBookingCode>N</air:AirBookingCode>
+                                             <air:AirTicketCouponNumberString>1</air:AirTicketCouponNumberString>
+                                             <air:AirSegmentReference>
+                                                <air:AirOriginDestinationReferenceIndex>1</air:AirOriginDestinationReferenceIndex>
+                                                <air:AirSegmentReferenceIndex>1</air:AirSegmentReferenceIndex>
+                                             </air:AirSegmentReference>
+                                          </air:AirTicketCoupon>
+                                          <air:AirTicketCoupon>
+                                             <air:AirTicketCouponStatus>O</air:AirTicketCouponStatus>
+                                             <air:AirCarrierCode>BA</air:AirCarrierCode>
+                                             <air:FlightNumber>981</air:FlightNumber>
+                                             <air:DepartureAirportCode>TXL</air:DepartureAirportCode>
+                                             <air:ArrivalAirportCode>LHR</air:ArrivalAirportCode>
+                                             <time:StartDateTime xmlns:time="urn:expedia:e3:data:timetypes:defn:v4">2018-09-15T07:10:00+01:00</time:StartDateTime>
+                                             <air:AirBookingCode>V</air:AirBookingCode>
+                                             <air:AirTicketCouponNumberString>2</air:AirTicketCouponNumberString>
+                                             <air:AirSegmentReference>
+                                                <air:AirOriginDestinationReferenceIndex>2</air:AirOriginDestinationReferenceIndex>
+                                                <air:AirSegmentReferenceIndex>1</air:AirSegmentReferenceIndex>
+                                             </air:AirSegmentReference>
+                                          </air:AirTicketCoupon>
+                                       </air:AirTicketCouponList>
+                                       <air:AirTicketFareDetails>
+                                          <air:AirTicketFareComponentList>
+                                             <air:AirTicketFareComponent>
+                                                <air:AirCarrierCode>BA</air:AirCarrierCode>
+                                                <air:AirFareRouteCategory>Round Trip</air:AirFareRouteCategory>
+                                                <air:AirFareBasisCode>NV2R</air:AirFareBasisCode>
+                                                <air:DepartureAirportCode>LHR</air:DepartureAirportCode>
+                                                <air:ArrivalAirportCode>TXL</air:ArrivalAirportCode>
+                                                <time:StartDateTime xmlns:time="urn:expedia:e3:data:timetypes:defn:v4">2018-09-11T17:05:00-00:00</time:StartDateTime>
+                                                <air:AirFareBaseCurrencyAmount>
+                                                   <ns1:SimpleAmount>222.00</ns1:SimpleAmount>
+                                                   <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                                                </air:AirFareBaseCurrencyAmount>
+                                                <air:TicketDateTime>2018-07-19T23:16:00</air:TicketDateTime>
+                                                <air:AirTicketCouponReferenceIndexList>
+                                                   <air:AirTicketCouponReferenceIndex>1</air:AirTicketCouponReferenceIndex>
+                                                </air:AirTicketCouponReferenceIndexList>
+                                             </air:AirTicketFareComponent>
+                                             <air:AirTicketFareComponent>
+                                                <air:AirCarrierCode>BA</air:AirCarrierCode>
+                                                <air:AirFareRouteCategory>Round Trip</air:AirFareRouteCategory>
+                                                <air:AirFareBasisCode>VV2R</air:AirFareBasisCode>
+                                                <air:DepartureAirportCode>TXL</air:DepartureAirportCode>
+                                                <air:ArrivalAirportCode>LHR</air:ArrivalAirportCode>
+                                                <time:StartDateTime xmlns:time="urn:expedia:e3:data:timetypes:defn:v4">2018-09-15T07:10:00+01:00</time:StartDateTime>
+                                                <air:AirFareBaseCurrencyAmount>
+                                                   <ns1:SimpleAmount>222.00</ns1:SimpleAmount>
+                                                   <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                                                </air:AirFareBaseCurrencyAmount>
+                                                <air:TicketDateTime>2018-07-19T23:16:00</air:TicketDateTime>
+                                                <air:AirTicketCouponReferenceIndexList>
+                                                   <air:AirTicketCouponReferenceIndex>2</air:AirTicketCouponReferenceIndex>
+                                                </air:AirTicketCouponReferenceIndexList>
+                                             </air:AirTicketFareComponent>
+                                          </air:AirTicketFareComponentList>
+                                          <air:AirFareBaseCurrencyAmount>
+                                             <ns1:SimpleAmount>222.00</ns1:SimpleAmount>
+                                             <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                                          </air:AirFareBaseCurrencyAmount>
+                                          <air:AirFareTaxesCurrencyAmount>
+                                             <ns1:SimpleAmount>77.50</ns1:SimpleAmount>
+                                             <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                                          </air:AirFareTaxesCurrencyAmount>
+                                       </air:AirTicketFareDetails>
+                                       <air:TicketingDateTime>2018-07-19T16:17:00</air:TicketingDateTime>
+                                    </air:AirTicket>
+                                 </air:AirTicketList>
+                              </air:AirFulfillmentDetailsBooked>
+                              <air:AirFulfillmentState>Fulfilled</air:AirFulfillmentState>
+                              <finance:TransactionRecord xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">
+                                 <finance:TransactionComponentList>
+                                    <finance:TransactionComponent ns1:DataSourceTravelServerServiceID="2" ns1:SequenceIndex="1">
+                                       <finance:TransactionAmount>
+                                          <finance:SimpleCurrencyAmount>
+                                             <ns1:SimpleAmount>222.00</ns1:SimpleAmount>
+                                             <finance:CurrencyCode>USD</finance:CurrencyCode>
+                                          </finance:SimpleCurrencyAmount>
+                                       </finance:TransactionAmount>
+                                       <finance:TransactionComponentCategoryCode>baseNet</finance:TransactionComponentCategoryCode>
+                                       <finance:TransactionComponentUnitMeasure>total</finance:TransactionComponentUnitMeasure>
+                                       <finance:TransactionComponentUnitCount>1</finance:TransactionComponentUnitCount>
+                                       <ns1:DescriptionRawText>base Net</ns1:DescriptionRawText>
+                                    </finance:TransactionComponent>
+                                    <finance:TransactionComponent ns1:DataSourceTravelServerServiceID="2" ns1:SequenceIndex="2">
+                                       <finance:TransactionAmount>
+                                          <finance:SimpleCurrencyAmount>
+                                             <ns1:SimpleAmount>222.00</ns1:SimpleAmount>
+                                             <finance:CurrencyCode>USD</finance:CurrencyCode>
+                                          </finance:SimpleCurrencyAmount>
+                                       </finance:TransactionAmount>
+                                       <finance:TransactionComponentCategoryCode>baseGross</finance:TransactionComponentCategoryCode>
+                                       <finance:TransactionComponentUnitMeasure>total</finance:TransactionComponentUnitMeasure>
+                                       <finance:TransactionComponentUnitCount>1</finance:TransactionComponentUnitCount>
+                                       <ns1:DescriptionRawText>base Gross</ns1:DescriptionRawText>
+                                    </finance:TransactionComponent>
+                                    <finance:TransactionComponent ns1:DataSourceTravelServerServiceID="2" ns1:SequenceIndex="3">
+                                       <finance:TransactionAmount>
+                                          <finance:SimpleCurrencyAmount>
+                                             <ns1:SimpleAmount>77.50</ns1:SimpleAmount>
+                                             <finance:CurrencyCode>USD</finance:CurrencyCode>
+                                          </finance:SimpleCurrencyAmount>
+                                       </finance:TransactionAmount>
+                                       <finance:TransactionComponentCategoryCode>taxNet</finance:TransactionComponentCategoryCode>
+                                       <finance:TransactionComponentUnitMeasure>total</finance:TransactionComponentUnitMeasure>
+                                       <finance:TransactionComponentUnitCount>1</finance:TransactionComponentUnitCount>
+                                       <ns1:DescriptionRawText>tax Net</ns1:DescriptionRawText>
+                                    </finance:TransactionComponent>
+                                    <finance:TransactionComponent ns1:DataSourceTravelServerServiceID="2" ns1:SequenceIndex="4">
+                                       <finance:TransactionAmount>
+                                          <finance:SimpleCurrencyAmount>
+                                             <ns1:SimpleAmount>77.50</ns1:SimpleAmount>
+                                             <finance:CurrencyCode>USD</finance:CurrencyCode>
+                                          </finance:SimpleCurrencyAmount>
+                                       </finance:TransactionAmount>
+                                       <finance:TransactionComponentCategoryCode>taxGross</finance:TransactionComponentCategoryCode>
+                                       <finance:TransactionComponentUnitMeasure>total</finance:TransactionComponentUnitMeasure>
+                                       <finance:TransactionComponentUnitCount>1</finance:TransactionComponentUnitCount>
+                                       <ns1:DescriptionRawText>tax Gross</ns1:DescriptionRawText>
+                                    </finance:TransactionComponent>
+                                    <finance:TransactionComponent ns1:DataSourceTravelServerServiceID="2" ns1:SequenceIndex="5">
+                                       <finance:TransactionAmount>
+                                          <finance:SimpleCurrencyAmount>
+                                             <ns1:SimpleAmount>222.00</ns1:SimpleAmount>
+                                             <finance:CurrencyCode>USD</finance:CurrencyCode>
+                                          </finance:SimpleCurrencyAmount>
+                                       </finance:TransactionAmount>
+                                       <finance:TransactionComponentCategoryCode>baseNet</finance:TransactionComponentCategoryCode>
+                                       <finance:TransactionComponentUnitMeasure>adult</finance:TransactionComponentUnitMeasure>
+                                       <finance:TransactionComponentUnitCount>1</finance:TransactionComponentUnitCount>
+                                       <ns1:DescriptionRawText>base price Net for specific PTC</ns1:DescriptionRawText>
+                                    </finance:TransactionComponent>
+                                    <finance:TransactionComponent ns1:DataSourceTravelServerServiceID="2" ns1:SequenceIndex="6">
+                                       <finance:TransactionAmount>
+                                          <finance:SimpleCurrencyAmount>
+                                             <ns1:SimpleAmount>222.00</ns1:SimpleAmount>
+                                             <finance:CurrencyCode>USD</finance:CurrencyCode>
+                                          </finance:SimpleCurrencyAmount>
+                                       </finance:TransactionAmount>
+                                       <finance:TransactionComponentCategoryCode>baseGross</finance:TransactionComponentCategoryCode>
+                                       <finance:TransactionComponentUnitMeasure>adult</finance:TransactionComponentUnitMeasure>
+                                       <finance:TransactionComponentUnitCount>1</finance:TransactionComponentUnitCount>
+                                       <ns1:DescriptionRawText>base price Gross for specific PTC</ns1:DescriptionRawText>
+                                    </finance:TransactionComponent>
+                                    <finance:TransactionComponent ns1:DataSourceTravelServerServiceID="2" ns1:SequenceIndex="7">
+                                       <finance:TransactionAmount>
+                                          <finance:SimpleCurrencyAmount>
+                                             <ns1:SimpleAmount>77.50</ns1:SimpleAmount>
+                                             <finance:CurrencyCode>USD</finance:CurrencyCode>
+                                          </finance:SimpleCurrencyAmount>
+                                       </finance:TransactionAmount>
+                                       <finance:TransactionComponentCategoryCode>taxNet</finance:TransactionComponentCategoryCode>
+                                       <finance:TransactionComponentUnitMeasure>adult</finance:TransactionComponentUnitMeasure>
+                                       <finance:TransactionComponentUnitCount>1</finance:TransactionComponentUnitCount>
+                                       <ns1:DescriptionRawText>tax price Net for specific PTC</ns1:DescriptionRawText>
+                                    </finance:TransactionComponent>
+                                    <finance:TransactionComponent ns1:DataSourceTravelServerServiceID="2" ns1:SequenceIndex="8">
+                                       <finance:TransactionAmount>
+                                          <finance:SimpleCurrencyAmount>
+                                             <ns1:SimpleAmount>77.50</ns1:SimpleAmount>
+                                             <finance:CurrencyCode>USD</finance:CurrencyCode>
+                                          </finance:SimpleCurrencyAmount>
+                                       </finance:TransactionAmount>
+                                       <finance:TransactionComponentCategoryCode>taxGross</finance:TransactionComponentCategoryCode>
+                                       <finance:TransactionComponentUnitMeasure>adult</finance:TransactionComponentUnitMeasure>
+                                       <finance:TransactionComponentUnitCount>1</finance:TransactionComponentUnitCount>
+                                       <ns1:DescriptionRawText>tax price Gross for specific PTC</ns1:DescriptionRawText>
+                                    </finance:TransactionComponent>
+                                    <finance:TransactionComponent ns1:DataSourceTravelServerServiceID="2" ns1:SequenceIndex="9">
+                                       <finance:TransactionAmount>
+                                          <finance:SimpleCurrencyAmount>
+                                             <ns1:SimpleAmount>8.60</ns1:SimpleAmount>
+                                             <finance:CurrencyCode>USD</finance:CurrencyCode>
+                                          </finance:SimpleCurrencyAmount>
+                                       </finance:TransactionAmount>
+                                       <finance:TransactionComponentCategoryCode>DE</finance:TransactionComponentCategoryCode>
+                                       <finance:TransactionComponentUnitMeasure>adult</finance:TransactionComponentUnitMeasure>
+                                       <finance:TransactionComponentUnitCount>1</finance:TransactionComponentUnitCount>
+                                       <ns1:DescriptionRawText>specific PTC tax price breakdown</ns1:DescriptionRawText>
+                                    </finance:TransactionComponent>
+                                    <finance:TransactionComponent ns1:DataSourceTravelServerServiceID="2" ns1:SequenceIndex="10">
+                                       <finance:TransactionAmount>
+                                          <finance:SimpleCurrencyAmount>
+                                             <ns1:SimpleAmount>8.70</ns1:SimpleAmount>
+                                             <finance:CurrencyCode>USD</finance:CurrencyCode>
+                                          </finance:SimpleCurrencyAmount>
+                                       </finance:TransactionAmount>
+                                       <finance:TransactionComponentCategoryCode>OY</finance:TransactionComponentCategoryCode>
+                                       <finance:TransactionComponentUnitMeasure>adult</finance:TransactionComponentUnitMeasure>
+                                       <finance:TransactionComponentUnitCount>1</finance:TransactionComponentUnitCount>
+                                       <ns1:DescriptionRawText>specific PTC tax price breakdown</ns1:DescriptionRawText>
+                                    </finance:TransactionComponent>
+                                    <finance:TransactionComponent ns1:DataSourceTravelServerServiceID="2" ns1:SequenceIndex="11">
+                                       <finance:TransactionAmount>
+                                          <finance:SimpleCurrencyAmount>
+                                             <ns1:SimpleAmount>17.10</ns1:SimpleAmount>
+                                             <finance:CurrencyCode>USD</finance:CurrencyCode>
+                                          </finance:SimpleCurrencyAmount>
+                                       </finance:TransactionAmount>
+                                       <finance:TransactionComponentCategoryCode>GB</finance:TransactionComponentCategoryCode>
+                                       <finance:TransactionComponentUnitMeasure>adult</finance:TransactionComponentUnitMeasure>
+                                       <finance:TransactionComponentUnitCount>1</finance:TransactionComponentUnitCount>
+                                       <ns1:DescriptionRawText>specific PTC tax price breakdown</ns1:DescriptionRawText>
+                                    </finance:TransactionComponent>
+                                    <finance:TransactionComponent ns1:DataSourceTravelServerServiceID="2" ns1:SequenceIndex="12">
+                                       <finance:TransactionAmount>
+                                          <finance:SimpleCurrencyAmount>
+                                             <ns1:SimpleAmount>25.50</ns1:SimpleAmount>
+                                             <finance:CurrencyCode>USD</finance:CurrencyCode>
+                                          </finance:SimpleCurrencyAmount>
+                                       </finance:TransactionAmount>
+                                       <finance:TransactionComponentCategoryCode>UB</finance:TransactionComponentCategoryCode>
+                                       <finance:TransactionComponentUnitMeasure>adult</finance:TransactionComponentUnitMeasure>
+                                       <finance:TransactionComponentUnitCount>1</finance:TransactionComponentUnitCount>
+                                       <ns1:DescriptionRawText>specific PTC tax price breakdown</ns1:DescriptionRawText>
+                                    </finance:TransactionComponent>
+                                    <finance:TransactionComponent ns1:DataSourceTravelServerServiceID="2" ns1:SequenceIndex="13">
+                                       <finance:TransactionAmount>
+                                          <finance:SimpleCurrencyAmount>
+                                             <ns1:SimpleAmount>17.60</ns1:SimpleAmount>
+                                             <finance:CurrencyCode>USD</finance:CurrencyCode>
+                                          </finance:SimpleCurrencyAmount>
+                                       </finance:TransactionAmount>
+                                       <finance:TransactionComponentCategoryCode>RA</finance:TransactionComponentCategoryCode>
+                                       <finance:TransactionComponentUnitMeasure>adult</finance:TransactionComponentUnitMeasure>
+                                       <finance:TransactionComponentUnitCount>1</finance:TransactionComponentUnitCount>
+                                       <ns1:DescriptionRawText>specific PTC tax price breakdown</ns1:DescriptionRawText>
+                                    </finance:TransactionComponent>
+                                    <finance:TransactionComponent ns1:DataSourceTravelServerServiceID="2" ns1:SequenceIndex="14">
+                                       <finance:TransactionAmount>
+                                          <finance:SimpleCurrencyAmount>
+                                             <ns1:SimpleAmount>8.60</ns1:SimpleAmount>
+                                             <finance:CurrencyCode>USD</finance:CurrencyCode>
+                                          </finance:SimpleCurrencyAmount>
+                                       </finance:TransactionAmount>
+                                       <finance:TransactionComponentCategoryCode>DE</finance:TransactionComponentCategoryCode>
+                                       <finance:TransactionComponentUnitMeasure>total</finance:TransactionComponentUnitMeasure>
+                                       <finance:TransactionComponentUnitCount>1</finance:TransactionComponentUnitCount>
+                                       <ns1:DescriptionRawText>specific tax breakdown total</ns1:DescriptionRawText>
+                                    </finance:TransactionComponent>
+                                    <finance:TransactionComponent ns1:DataSourceTravelServerServiceID="2" ns1:SequenceIndex="15">
+                                       <finance:TransactionAmount>
+                                          <finance:SimpleCurrencyAmount>
+                                             <ns1:SimpleAmount>8.70</ns1:SimpleAmount>
+                                             <finance:CurrencyCode>USD</finance:CurrencyCode>
+                                          </finance:SimpleCurrencyAmount>
+                                       </finance:TransactionAmount>
+                                       <finance:TransactionComponentCategoryCode>OY</finance:TransactionComponentCategoryCode>
+                                       <finance:TransactionComponentUnitMeasure>total</finance:TransactionComponentUnitMeasure>
+                                       <finance:TransactionComponentUnitCount>1</finance:TransactionComponentUnitCount>
+                                       <ns1:DescriptionRawText>specific tax breakdown total</ns1:DescriptionRawText>
+                                    </finance:TransactionComponent>
+                                    <finance:TransactionComponent ns1:DataSourceTravelServerServiceID="2" ns1:SequenceIndex="16">
+                                       <finance:TransactionAmount>
+                                          <finance:SimpleCurrencyAmount>
+                                             <ns1:SimpleAmount>17.10</ns1:SimpleAmount>
+                                             <finance:CurrencyCode>USD</finance:CurrencyCode>
+                                          </finance:SimpleCurrencyAmount>
+                                       </finance:TransactionAmount>
+                                       <finance:TransactionComponentCategoryCode>GB</finance:TransactionComponentCategoryCode>
+                                       <finance:TransactionComponentUnitMeasure>total</finance:TransactionComponentUnitMeasure>
+                                       <finance:TransactionComponentUnitCount>1</finance:TransactionComponentUnitCount>
+                                       <ns1:DescriptionRawText>specific tax breakdown total</ns1:DescriptionRawText>
+                                    </finance:TransactionComponent>
+                                    <finance:TransactionComponent ns1:DataSourceTravelServerServiceID="2" ns1:SequenceIndex="17">
+                                       <finance:TransactionAmount>
+                                          <finance:SimpleCurrencyAmount>
+                                             <ns1:SimpleAmount>25.50</ns1:SimpleAmount>
+                                             <finance:CurrencyCode>USD</finance:CurrencyCode>
+                                          </finance:SimpleCurrencyAmount>
+                                       </finance:TransactionAmount>
+                                       <finance:TransactionComponentCategoryCode>UB</finance:TransactionComponentCategoryCode>
+                                       <finance:TransactionComponentUnitMeasure>total</finance:TransactionComponentUnitMeasure>
+                                       <finance:TransactionComponentUnitCount>1</finance:TransactionComponentUnitCount>
+                                       <ns1:DescriptionRawText>specific tax breakdown total</ns1:DescriptionRawText>
+                                    </finance:TransactionComponent>
+                                    <finance:TransactionComponent ns1:DataSourceTravelServerServiceID="2" ns1:SequenceIndex="18">
+                                       <finance:TransactionAmount>
+                                          <finance:SimpleCurrencyAmount>
+                                             <ns1:SimpleAmount>17.60</ns1:SimpleAmount>
+                                             <finance:CurrencyCode>USD</finance:CurrencyCode>
+                                          </finance:SimpleCurrencyAmount>
+                                       </finance:TransactionAmount>
+                                       <finance:TransactionComponentCategoryCode>RA</finance:TransactionComponentCategoryCode>
+                                       <finance:TransactionComponentUnitMeasure>total</finance:TransactionComponentUnitMeasure>
+                                       <finance:TransactionComponentUnitCount>1</finance:TransactionComponentUnitCount>
+                                       <ns1:DescriptionRawText>specific tax breakdown total</ns1:DescriptionRawText>
+                                    </finance:TransactionComponent>
+                                 </finance:TransactionComponentList>
+                                 <finance:TransactionComponentChangedBoolean>false</finance:TransactionComponentChangedBoolean>
+                              </finance:TransactionRecord>
+                              <air:AirTravelerDetailsList>
+                                 <air:AirTravelerDetails>
+                                    <air:AirTravelerReferenceIndex>1</air:AirTravelerReferenceIndex>
+                                    <air:AirTravelerSeatAssignmentList>
+                                       <air:AirTravelerSeatAssignment>
+                                          <air:AirLegReference>
+                                             <air:AirOriginDestinationReferenceIndex>1</air:AirOriginDestinationReferenceIndex>
+                                             <air:AirSegmentReferenceIndex>1</air:AirSegmentReferenceIndex>
+                                             <air:AirLegReferenceIndex>1</air:AirLegReferenceIndex>
+                                          </air:AirLegReference>
+                                          <air:SeatAssignmentNameString>18A</air:SeatAssignmentNameString>
+                                       </air:AirTravelerSeatAssignment>
+                                       <air:AirTravelerSeatAssignment>
+                                          <air:AirLegReference>
+                                             <air:AirOriginDestinationReferenceIndex>2</air:AirOriginDestinationReferenceIndex>
+                                             <air:AirSegmentReferenceIndex>1</air:AirSegmentReferenceIndex>
+                                             <air:AirLegReferenceIndex>1</air:AirLegReferenceIndex>
+                                          </air:AirLegReference>
+                                          <air:SeatAssignmentNameString>23F</air:SeatAssignmentNameString>
+                                       </air:AirTravelerSeatAssignment>
+                                    </air:AirTravelerSeatAssignmentList>
+                                 </air:AirTravelerDetails>
+                              </air:AirTravelerDetailsList>
+                              <air:AirProductState>booked</air:AirProductState>
+                              <air:AirProductAttributeCodeList>
+                                 <air:AirProductAttributeCode>agency</air:AirProductAttributeCode>
+                                 <air:AirProductAttributeCode>eticketrequest</air:AirProductAttributeCode>
+                                 <air:AirProductAttributeCode>international</air:AirProductAttributeCode>
+                                 <air:AirProductAttributeCode>markedup</air:AirProductAttributeCode>
+                                 <air:AirProductAttributeCode>nonrefundable</air:AirProductAttributeCode>
+                                 <air:AirProductAttributeCode>packageable</air:AirProductAttributeCode>
+                                 <air:AirProductAttributeCode>SecureFlightInfoNotRequired</air:AirProductAttributeCode>
+                                 <air:AirProductAttributeCode>verifyrequired</air:AirProductAttributeCode>
+                              </air:AirProductAttributeCodeList>
+                              <air:AirPaymentCategory>agency</air:AirPaymentCategory>
+                           </air:AirProductBooked>
+                        </air:AirProductBookedList>
+                     </air:AirRecordItem>
+                     <air:AirOrderLineItemList>
+                        <air:AirOrderLineItem>
+                           <air:AirOrderLineItemID>1</air:AirOrderLineItemID>
+                           <air:AirTravelerReferenceIndex>1</air:AirTravelerReferenceIndex>
+                           <air:AirProductBookedReferenceIndex>1</air:AirProductBookedReferenceIndex>
+                           <air:AirTicket>
+                              <air:AirTicketNumber>1257165232507</air:AirTicketNumber>
+                              <air:AirTravelerReferenceIndex>1</air:AirTravelerReferenceIndex>
+                              <air:ElectronicTicketBoolean>true</air:ElectronicTicketBoolean>
+                              <air:AirTicketCouponList>
+                                 <air:AirTicketCoupon>
+                                    <air:AirTicketCouponStatus>O</air:AirTicketCouponStatus>
+                                    <air:AirCarrierCode>BA</air:AirCarrierCode>
+                                    <air:FlightNumber>994</air:FlightNumber>
+                                    <air:DepartureAirportCode>LHR</air:DepartureAirportCode>
+                                    <air:ArrivalAirportCode>TXL</air:ArrivalAirportCode>
+                                    <time:StartDateTime xmlns:time="urn:expedia:e3:data:timetypes:defn:v4">2018-09-11T17:05:00-00:00</time:StartDateTime>
+                                    <air:AirBookingCode>N</air:AirBookingCode>
+                                    <air:AirTicketCouponNumberString>1</air:AirTicketCouponNumberString>
+                                    <air:AirSegmentReference>
+                                       <air:AirOriginDestinationReferenceIndex>1</air:AirOriginDestinationReferenceIndex>
+                                       <air:AirSegmentReferenceIndex>1</air:AirSegmentReferenceIndex>
+                                    </air:AirSegmentReference>
+                                 </air:AirTicketCoupon>
+                                 <air:AirTicketCoupon>
+                                    <air:AirTicketCouponStatus>O</air:AirTicketCouponStatus>
+                                    <air:AirCarrierCode>BA</air:AirCarrierCode>
+                                    <air:FlightNumber>981</air:FlightNumber>
+                                    <air:DepartureAirportCode>TXL</air:DepartureAirportCode>
+                                    <air:ArrivalAirportCode>LHR</air:ArrivalAirportCode>
+                                    <time:StartDateTime xmlns:time="urn:expedia:e3:data:timetypes:defn:v4">2018-09-15T07:10:00+01:00</time:StartDateTime>
+                                    <air:AirBookingCode>V</air:AirBookingCode>
+                                    <air:AirTicketCouponNumberString>2</air:AirTicketCouponNumberString>
+                                    <air:AirSegmentReference>
+                                       <air:AirOriginDestinationReferenceIndex>2</air:AirOriginDestinationReferenceIndex>
+                                       <air:AirSegmentReferenceIndex>1</air:AirSegmentReferenceIndex>
+                                    </air:AirSegmentReference>
+                                 </air:AirTicketCoupon>
+                              </air:AirTicketCouponList>
+                              <air:AirTicketFareDetails>
+                                 <air:AirTicketFareComponentList>
+                                    <air:AirTicketFareComponent>
+                                       <air:AirCarrierCode>BA</air:AirCarrierCode>
+                                       <air:AirFareRouteCategory>Round Trip</air:AirFareRouteCategory>
+                                       <air:AirFareBasisCode>NV2R</air:AirFareBasisCode>
+                                       <air:DepartureAirportCode>LHR</air:DepartureAirportCode>
+                                       <air:ArrivalAirportCode>TXL</air:ArrivalAirportCode>
+                                       <time:StartDateTime xmlns:time="urn:expedia:e3:data:timetypes:defn:v4">2018-09-11T17:05:00-00:00</time:StartDateTime>
+                                       <air:AirFareBaseCurrencyAmount>
+                                          <base:SimpleAmount xmlns:base="urn:expedia:e3:data:basetypes:defn:v4">222.00</base:SimpleAmount>
+                                          <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                                       </air:AirFareBaseCurrencyAmount>
+                                       <air:TicketDateTime>2018-07-19T23:16:00</air:TicketDateTime>
+                                       <air:AirTicketCouponReferenceIndexList>
+                                          <air:AirTicketCouponReferenceIndex>1</air:AirTicketCouponReferenceIndex>
+                                       </air:AirTicketCouponReferenceIndexList>
+                                    </air:AirTicketFareComponent>
+                                    <air:AirTicketFareComponent>
+                                       <air:AirCarrierCode>BA</air:AirCarrierCode>
+                                       <air:AirFareRouteCategory>Round Trip</air:AirFareRouteCategory>
+                                       <air:AirFareBasisCode>VV2R</air:AirFareBasisCode>
+                                       <air:DepartureAirportCode>TXL</air:DepartureAirportCode>
+                                       <air:ArrivalAirportCode>LHR</air:ArrivalAirportCode>
+                                       <time:StartDateTime xmlns:time="urn:expedia:e3:data:timetypes:defn:v4">2018-09-15T07:10:00+01:00</time:StartDateTime>
+                                       <air:AirFareBaseCurrencyAmount>
+                                          <base:SimpleAmount xmlns:base="urn:expedia:e3:data:basetypes:defn:v4">222.00</base:SimpleAmount>
+                                          <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                                       </air:AirFareBaseCurrencyAmount>
+                                       <air:TicketDateTime>2018-07-19T23:16:00</air:TicketDateTime>
+                                       <air:AirTicketCouponReferenceIndexList>
+                                          <air:AirTicketCouponReferenceIndex>2</air:AirTicketCouponReferenceIndex>
+                                       </air:AirTicketCouponReferenceIndexList>
+                                    </air:AirTicketFareComponent>
+                                 </air:AirTicketFareComponentList>
+                                 <air:AirFareBaseCurrencyAmount>
+                                    <base:SimpleAmount xmlns:base="urn:expedia:e3:data:basetypes:defn:v4">222.00</base:SimpleAmount>
+                                    <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                                 </air:AirFareBaseCurrencyAmount>
+                                 <air:AirFareTaxesCurrencyAmount>
+                                    <base:SimpleAmount xmlns:base="urn:expedia:e3:data:basetypes:defn:v4">77.50</base:SimpleAmount>
+                                    <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                                 </air:AirFareTaxesCurrencyAmount>
+                              </air:AirTicketFareDetails>
+                              <air:TicketingDateTime>2018-07-19T16:17:00</air:TicketingDateTime>
+                           </air:AirTicket>
+                           <air:BookingID>58862416</air:BookingID>
+                           <air:BookingItemID>101303746</air:BookingItemID>
+                           <air:AirBookingDatabaseID>8</air:AirBookingDatabaseID>
+                           <air:AirFareAndFees>
+                              <air:AirFareBaseCurrencyAmount>
+                                 <base:SimpleAmount xmlns:base="urn:expedia:e3:data:basetypes:defn:v4">222.0000</base:SimpleAmount>
+                                 <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                              </air:AirFareBaseCurrencyAmount>
+                              <air:AirFareTaxesCurrencyAmount>
+                                 <base:SimpleAmount xmlns:base="urn:expedia:e3:data:basetypes:defn:v4">77.5000</base:SimpleAmount>
+                                 <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                              </air:AirFareTaxesCurrencyAmount>
+                              <air:AirFareTaxBreakdownList>
+                                 <air:AirFareTaxBreakdown>
+                                    <air:AirFareTaxCategoryCode>GB</air:AirFareTaxCategoryCode>
+                                    <air:AirFareTaxCurrencyAmount>
+                                       <base:SimpleAmount xmlns:base="urn:expedia:e3:data:basetypes:defn:v4">17.1000</base:SimpleAmount>
+                                       <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                                    </air:AirFareTaxCurrencyAmount>
+                                 </air:AirFareTaxBreakdown>
+                                 <air:AirFareTaxBreakdown>
+                                    <air:AirFareTaxCategoryCode>UB</air:AirFareTaxCategoryCode>
+                                    <air:AirFareTaxCurrencyAmount>
+                                       <base:SimpleAmount xmlns:base="urn:expedia:e3:data:basetypes:defn:v4">25.5000</base:SimpleAmount>
+                                       <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                                    </air:AirFareTaxCurrencyAmount>
+                                 </air:AirFareTaxBreakdown>
+                                 <air:AirFareTaxBreakdown>
+                                    <air:AirFareTaxCategoryCode>DE</air:AirFareTaxCategoryCode>
+                                    <air:AirFareTaxCurrencyAmount>
+                                       <base:SimpleAmount xmlns:base="urn:expedia:e3:data:basetypes:defn:v4">8.6000</base:SimpleAmount>
+                                       <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                                    </air:AirFareTaxCurrencyAmount>
+                                 </air:AirFareTaxBreakdown>
+                                 <air:AirFareTaxBreakdown>
+                                    <air:AirFareTaxCategoryCode>RA</air:AirFareTaxCategoryCode>
+                                    <air:AirFareTaxCurrencyAmount>
+                                       <base:SimpleAmount xmlns:base="urn:expedia:e3:data:basetypes:defn:v4">17.6000</base:SimpleAmount>
+                                       <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                                    </air:AirFareTaxCurrencyAmount>
+                                 </air:AirFareTaxBreakdown>
+                                 <air:AirFareTaxBreakdown>
+                                    <air:AirFareTaxCategoryCode>OY</air:AirFareTaxCategoryCode>
+                                    <air:AirFareTaxCurrencyAmount>
+                                       <base:SimpleAmount xmlns:base="urn:expedia:e3:data:basetypes:defn:v4">8.7000</base:SimpleAmount>
+                                       <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                                    </air:AirFareTaxCurrencyAmount>
+                                 </air:AirFareTaxBreakdown>
+                              </air:AirFareTaxBreakdownList>
+                              <air:AirFareMarkupCurrencyAmount>
+                                 <base:SimpleAmount xmlns:base="urn:expedia:e3:data:basetypes:defn:v4">0.0000</base:SimpleAmount>
+                                 <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                              </air:AirFareMarkupCurrencyAmount>
+                              <air:FeeList>
+                                 <air:Fee>
+                                    <air:FeeCategoryCode>OB Fee</air:FeeCategoryCode>
+                                    <air:FeeCurrencyAmount>
+                                       <base:SimpleAmount xmlns:base="urn:expedia:e3:data:basetypes:defn:v4">0.00</base:SimpleAmount>
+                                       <finance:CurrencyCode xmlns:finance="urn:expedia:e3:data:financetypes:defn:v4">USD</finance:CurrencyCode>
+                                    </air:FeeCurrencyAmount>
+                                    <air:FeeDescriptionString>OB Fee</air:FeeDescriptionString>
+                                 </air:Fee>
+                              </air:FeeList>
+                           </air:AirFareAndFees>
+                        </air:AirOrderLineItem>
+                     </air:AirOrderLineItemList>
+                  </air:FlightPurchaseRecord>
+               </ns1:OrderLineData>
+               <ns1:SupplyRecordLocator>
+                  <ns1:BookingRecordLocator>416747623</ns1:BookingRecordLocator>
+               </ns1:SupplyRecordLocator>
+               <ns1:RequestedProductRefID ref="GUID_ad93a538-602d-4457-ac68-afcc1cafbf40" />
+               <ns1:AdditionalDataRefList>
+                  <ns1:AdditionalDataRef ref="GUID_0B72594C-E24C-4F0A-B744-9474B466064A" />
+               </ns1:AdditionalDataRefList>
+               <ns1:LineUpdateFlag>Exists</ns1:LineUpdateFlag>
+               <ns1:OfferGUID>e3372839-20fe-41ca-8e61-a758480f7839</ns1:OfferGUID>
+               <ns1:OrderLineStartEndDateTime>
+                  <ns1:StartDateTime>2018-09-11T17:05:00Z</ns1:StartDateTime>
+                  <ns1:EndDateTime>2018-09-15T08:15:00Z</ns1:EndDateTime>
+               </ns1:OrderLineStartEndDateTime>
+               <ns1:PaymentRefList>
+                  <ns1:PaymentRef ref="PaymentPlanDetails_6a4bb065-c82b-4db7-971e-b513f48ba2d2" />
+               </ns1:PaymentRefList>
+               <ns5:PriceStructure>
+                  <ns5:ComponentPrice>
+                     <ns5:Component>
+                        <ns5:Amount>
+                           <ns4:SimpleAmount>222.00</ns4:SimpleAmount>
+                           <ns5:CurrencyCode>USD</ns5:CurrencyCode>
+                        </ns5:Amount>
+                        <ns5:ComponentDefinition>Base</ns5:ComponentDefinition>
+                     </ns5:Component>
+                     <ns5:Component>
+                        <ns5:Amount>
+                           <ns4:SimpleAmount>77.50</ns4:SimpleAmount>
+                           <ns5:CurrencyCode>USD</ns5:CurrencyCode>
+                        </ns5:Amount>
+                        <ns5:ComponentDefinition>Base</ns5:ComponentDefinition>
+                     </ns5:Component>
+                  </ns5:ComponentPrice>
+               </ns5:PriceStructure>
+            </ns1:OrderLine>
+         </ns1:OrderLineList>
+         <ns1:AssociatedUsers>
+            <ns1:Customer>
+               <ns1:EmailAddress>richbrightman@yahoo.com</ns1:EmailAddress>
+               <ns1:FirstName>RICHARD</ns1:FirstName>
+               <ns1:MiddleName>E</ns1:MiddleName>
+               <ns1:LastName>BRIGHTMAN</ns1:LastName>
+               <ns1:Address>
+                  <ns1:FirstAddressLine>1026 VALEROSA PL</ns1:FirstAddressLine>
+                  <ns1:CityName>WALNUT CREEK</ns1:CityName>
+                  <ns1:ProvinceName>CA</ns1:ProvinceName>
+                  <ns1:PostalCode>945973274</ns1:PostalCode>
+                  <ns1:CountryAlpha3Code>USA</ns1:CountryAlpha3Code>
+               </ns1:Address>
+               <ns1:PointOfSaleCustomerIdentifierData namespace="urn:expedia:om:datatype:defn:v1" type="ExpediaUser">
+                  <ns6:ExpediaUser>
+                     <ns6:User>
+                        <ns6:UserID>233260669</ns6:UserID>
+                        <ns6:SiteKey>70207</ns6:SiteKey>
+                     </ns6:User>
+                  </ns6:ExpediaUser>
+               </ns1:PointOfSaleCustomerIdentifierData>
+            </ns1:Customer>
+         </ns1:AssociatedUsers>
+         <ns1:AdditionalDataList>
+            <ns1:AdditionalData id="GUID_04b2b446-8a1d-474a-b8d8-dd6e6518ee3c" namespace="urn:expedia:e3:ews:core:trip:entities:defn:v1" key="travelerAdditionalData" isPersistable="true" isOrderLevel="true" content="rO0ABXNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAABc3IASGNvbS5leHBlZGlhLnd3dy5ld3MuYm9va2luZy5kb3duc3RyZWFtLm9tcy5lbnRpdHkuVHJhdmVsZXJBZGRpdGlvbmFsRGF0YS009DDsbatNAgAGTAAFZW1haWx0ABJMamF2YS9sYW5nL1N0cmluZztMAAZmZkxpc3R0ABBMamF2YS91dGlsL0xpc3Q7TAAIcGFzc3BvcnR0ADZMY29tL2V4cGVkaWEvcGFydG5lcmFwaS9tb2RlbC9mbGlnaHRzL2NvbW1vbi9QYXNzcG9ydDtMAAVwaG9uZXQAK0xjb20vZXhwZWRpYS9wYXJ0bmVyYXBpL21vZGVsL2NvbW1vbi9QaG9uZTtMAAdwcmltYXJ5dAATTGphdmEvbGFuZy9Cb29sZWFuO0wACXVuaXF1ZUtleXEAfgADeHB0ABdyaWNoYnJpZ2h0bWFuQHlhaG9vLmNvbXBwc3IAKWNvbS5leHBlZGlhLnBhcnRuZXJhcGkubW9kZWwuY29tbW9uLlBob25lAAAAAAAAAAECAARMAAhhcmVhQ29kZXEAfgADTAALY291bnRyeUNvZGVxAH4AA0wAD2V4dGVuc2lvbk51bWJlcnEAfgADTAAGbnVtYmVycQB-AAN4cHQAAzkyNXQAATFwdAAHNzg4ODc3M3NyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAF0ABFyaWNoYXJkZWJyaWdodG1hbng" />
+            <ns1:AdditionalData id="GUID_87ef3644-66cc-459a-9daa-ce2c20912263" namespace="urn:expedia:e3:ews:core:trip:entities:defn:v1" key="TripId" isPersistable="true" isOrderLevel="true" content="47ea56c0-681a-4391-a3d5-db1d727277d1" />
+            <ns1:AdditionalData id="GUID_0B72594C-E24C-4F0A-B744-9474B466064A" namespace="urn:expedia:e3:ews:core:trip:entities:defn:v1" key="TripEntityID" isPersistable="true" isOrderLevel="false" content="0B72594C-E24C-4F0A-B744-9474B466064A" />
+            <ns1:AdditionalData id="GUID_752c6130-eaf9-40ab-bdbe-9ae40c82f64c" namespace="urn:expedia:e3:ews:core:trip:entities:defn:v1" key="PartnerConfirmationNumber" isPersistable="true" isOrderLevel="true" content="2877-8596" />
+            <ns1:AdditionalData id="GUID_c82c1aa0-6b4d-4957-a0aa-9209cca27248" namespace="urn:expedia:risk:trustservice:messages:​defn:v1" key="TrustServicePayload" isPersistable="true" isOrderLevel="true" content="0400nyhffR+vPCUNf94lis1zttIfQWBPMg051uVZEHhj6e6F0MlvwOEu5fhMS97Z4yfj26yJC5ggBhWAm9zHQIDQT+7YwkJKLXY0EJZtiIYy2xWIXpI74FNzSgyCiDVa0KzS3EXoW3wRrlcgwUuR9vU31LmRXIRnlSfUDXMzdeKt5csId7H9j3oUV0NYIad05MNb8cFCb3XpK0LXm0XBtvk2RW2s0fO33l4+Bez6hBBzrS2usa2jjh0Vn+TQHjy7H5XhLHCHAGY3J0jpLqVrSVzsI1LB6M5fl2EoMEAoEitEttFUo1DRkUtPGEiywQAE6GYYMVnVQ+kM7Amg5dRbGWPI8GGv4RQQVRK6lU99UoH2xkk9De0s3wqum/wpIdYUFppLgFG3N9YsohlYCRJtk87lyqEGmpIT8RiG3LmBa+jr/YFfq3bGwE2owMjHkbqfNn2NeUWcFPczw6R2ksFamlnVDcPhNaG/vxUQid7nrHt/JVEWod+/qWBmr8j/1NfhGOZnMGfGDfMJjL3boeLD9CFfwK+a8acMhShU/qKSMi+8MSu5mZwvTfjFe4WRHa+7AHqt+HV5pIv4g0Awit5NwtkncQ1/InDlj2XMuF6OiUfqPLjYdgXmjJkcl/9OamqwsjiMugiW/QA2yePCqR2sxhASOsyZh0oClnCJyAfUMZ5LKFoA4BbW41P4v+i7kYvuVLUfuv7xy18NeLwB84+POrI4MlDvgCJ6XflMpM5YbymrVY7rLMnUY2Yy4xZkFqaUZegb+KaePAdj0dC1DOkZ9ybRxHxfYV3WeA0UYsMZmVY5fSPfxkh5UW5qgdxQuT5js7TkTMj6Y82LrlflYU9iUMb03QtuHmc6Pe7cNepEKIoJSuwSQy3zP1/E72kssZVBQohhHbBPDncKJYr3oU6k968Na0fZdHRCR853TYPvefzXHqEQwLLSzeFEufTxOH0WU0cMwkGouP5PPyvQ78T0AGn/17sCyzUxPaqcnx/68jx36I3CqNqCVtrF2gK49HG48h297cCLXbQMe8NaIj8SqksKNA2I/HBChD7KIV/nhpqAvctc9du35r3TSQlx6nzzMYWWJ86rW8bYI5/tux8VjMBoUmHk3C7XHo8gsT5NlJKg73WBGA35nwcAWEYXN3+bqydWqLZcnDBAS9SM8lXpMISOf7T7130BIPii0VbAzVM5zPuCJUUDvOkg9DiEuyx+fdZIO0PdhRirnrt9xD6KYGuP2ZJqH2YE+ITF+MTw3KUeezTDY6xZKk9hhnUhQWh3hVQKuP+ScfUKmyC0m7Wrj84maagrLhpDZoxH8VWo4o1/6JStbT2iknzW7IXuJyPQHeG8ajksd2FjFSKLano+eccLaR5rAOFbnsFattG2w7YSYBFG/bp06NSnYJVPfVKB9sZJPQ3tLN8Krpv8KSHWFBaaS4BRtzfWLKIZWAkSbZPO5cqhBpqSE/EYhty5gWvo6/2BMVhmWIUGm30E7QI2uhZ9c1LKPWYwSttwDRd665Dh4c1OBRfwxRafhWGsj2AbbifT/PpW4Wx8p4OWt3N41ZXaBA==" />
+            <ns1:AdditionalData id="GUID_110e9c55-b59b-4d31-9caf-4e2ed51b7375" namespace="urn:expedia:om:common:defn:v1" key="ItineraryID" content="-1429987754">
+               <ns1:ItineraryID>
+                  <ns1:TravelRecordLocator>-1429987754</ns1:TravelRecordLocator>
+                  <ns1:TravelProductId>70207</ns1:TravelProductId>
+                  <ns1:ItineraryNumber>0</ns1:ItineraryNumber>
+               </ns1:ItineraryID>
+            </ns1:AdditionalData>
+            <ns1:AdditionalData id="GUID_356cd0f8-5bf7-41f3-9bfc-6ac6e57b89e0" namespace="urn:expedia:om:datatype:defn:v1" key="SingleUseAccountUserKey">
+               <ns6:ExpediaUser>
+                  <ns6:User>
+                     <ns6:UserID>233260669</ns6:UserID>
+                     <ns6:LegacySiteKey>70207</ns6:LegacySiteKey>
+                  </ns6:User>
+               </ns6:ExpediaUser>
+            </ns1:AdditionalData>
+         </ns1:AdditionalDataList>
+         <ns1:PaymentDetailList>
+            <ns1:PaymentDetailData id="PaymentPlanDetails_6a4bb065-c82b-4db7-971e-b513f48ba2d2" namespace="urn:expedia:payment:processor:messages:v2" type="PaymentPlanDetail">
+               <ns8:PaymentPlanDetail>
+                  <ns8:CreateDate>2018-07-19T16:15:37.013-07:00</ns8:CreateDate>
+                  <ns8:CreatingClientID>e62198da-6291-4394-a2bb-218218600302</ns8:CreatingClientID>
+                  <ns8:CreatingClientRequestID>8c1962bd-9be0-4a2b-a55a-d1241b2a4edc</ns8:CreatingClientRequestID>
+                  <ns8:PaymentPlanCorrelationID>480d8a98-f035-4286-bfd1-3d7202ac4bac</ns8:PaymentPlanCorrelationID>
+                  <ns8:PaymentPlanID>10402160264</ns8:PaymentPlanID>
+                  <ns8:BillingMerchantCategory>ThirdParty</ns8:BillingMerchantCategory>
+                  <ns8:CompanyCode>10111</ns8:CompanyCode>
+                  <ns8:Jurisdiction>USA</ns8:Jurisdiction>
+                  <ns8:OrderNumber>8142998775408</ns8:OrderNumber>
+                  <ns8:TaggingData>
+                     <ns9:Attribute>
+                        <ns9:Name>ManagementUnit</ns9:Name>
+                        <ns9:Value>4032</ns9:Value>
+                     </ns9:Attribute>
+                  </ns8:TaggingData>
+                  <ns8:PaymentItemDetail>
+                     <ns8:PaymentItemCorrelationID>4bee7206-4744-48a5-940e-7fe9d2b4a4d8</ns8:PaymentItemCorrelationID>
+                     <ns8:PaymentItemID>10412558777</ns8:PaymentItemID>
+                     <ns8:PaymentItemGUID>5A10C8AD-3344-439C-B44B-276E99C7ADC5</ns8:PaymentItemGUID>
+                     <ns8:PaymentInstrumentID>43AF98B1-6E80-4246-B56B-2C589F987FCF</ns8:PaymentInstrumentID>
+                     <ns8:PaymentInstrumentServiceID>PV</ns8:PaymentInstrumentServiceID>
+                     <ns8:InstrumentVerificationDataID>f14460b1-af28-4c61-965e-372629246f40</ns8:InstrumentVerificationDataID>
+                     <ns8:InstrumentVerificationType>cvv</ns8:InstrumentVerificationType>
+                     <ns8:PaymentType>CreditCard</ns8:PaymentType>
+                     <ns8:PaymentSubType>AmericanExpress</ns8:PaymentSubType>
+                     <ns8:PaymentAccountID>372897XXXXX2018</ns8:PaymentAccountID>
+                     <ns8:CardPresentCode>WebPaymentByCustomer</ns8:CardPresentCode>
+                     <ns8:LifeCycleStateName>Success</ns8:LifeCycleStateName>
+                     <ns8:TransactionModel>TwoStepCommit</ns8:TransactionModel>
+                     <ns8:PaymentItemVerifyOperation>
+                        <ns8:IsPending>false</ns8:IsPending>
+                        <ns8:TransactionTrackingInfo>
+                           <ns8:ClientTransactionID>3d25ea22-dfff-4ff4-86b0-6f85975975b6</ns8:ClientTransactionID>
+                           <ns8:OtherTrackingAttributes>
+                              <ns9:Attribute>
+                                 <ns9:Name>TravelProductID</ns9:Name>
+                                 <ns9:Value>70207</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>TUID</ns9:Name>
+                                 <ns9:Value>233260669</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>TRL</ns9:Name>
+                                 <ns9:Value>-1429987754</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>ExpediaPurchaseTypeID</ns9:Name>
+                                 <ns9:Value>21</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>EAPID</ns9:Name>
+                                 <ns9:Value>0</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>GPID</ns9:Name>
+                                 <ns9:Value>0</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>PaymentDesc</ns9:Name>
+                                 <ns9:Value>Itinerary: 7367208914671, Start Date: 9/11/2018, End Date: 9/15/2018, Contains:  Agency Air</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>PaymentReasonID</ns9:Name>
+                                 <ns9:Value>0</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>ProxyForPayerID</ns9:Name>
+                                 <ns9:Value>0</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>TravServerDBInstance</ns9:Name>
+                                 <ns9:Value>TravServerUS</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>TUIDLogon</ns9:Name>
+                                 <ns9:Value>233260669</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>LanguageCode</ns9:Name>
+                                 <ns9:Value>en</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>LegacyPaymentType</ns9:Name>
+                                 <ns9:Value>Full</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>OrderOperationCorrelationID</ns9:Name>
+                                 <ns9:Value>a2e0dd49-b29e-4d9c-bf09-e830fc99dafd</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>PaymentProviderID</ns9:Name>
+                                 <ns9:Value>12</ns9:Value>
+                              </ns9:Attribute>
+                           </ns8:OtherTrackingAttributes>
+                        </ns8:TransactionTrackingInfo>
+                        <ns8:PaymentItemOperationID>3999854374</ns8:PaymentItemOperationID>
+                        <ns8:PaymentAmount>
+                           <ns8:CurrencyCode>USD</ns8:CurrencyCode>
+                           <ns8:Amount>299.50</ns8:Amount>
+                        </ns8:PaymentAmount>
+                        <ns8:PaymentItemVerifyStep>
+                           <ns8:PaymentItemOperationStepID>4483105011</ns8:PaymentItemOperationStepID>
+                           <ns8:ClientRequestID>8c1962bd-9be0-4a2b-a55a-d1241b2a4edc:100000</ns8:ClientRequestID>
+                           <ns8:ProcessorRequestID>f40530ad-5604-4555-8e71-a43b6f9242a1</ns8:ProcessorRequestID>
+                           <ns8:CreateDate>2018-07-19T16:15:37.393-07:00</ns8:CreateDate>
+                           <ns8:AdditionalData>
+                              <ns9:Attribute>
+                                 <ns9:Name>PaymentProviderTransactionCodeMapID</ns9:Name>
+                                 <ns9:Value>-1484936230</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>CreditCardLogFailureAuthID</ns9:Name>
+                                 <ns9:Value>-1164388553</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>ExpediaPurchaseTypeID</ns9:Name>
+                                 <ns9:Value>21</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>ManagementUnit</ns9:Name>
+                                 <ns9:Value>4032</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>PaymentDesc</ns9:Name>
+                                 <ns9:Value>Itinerary: 7367208914671, Start Date: 9/11/2018, End Date: 9/15/2018, Contains:  Agency Air</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>PaymentProviderID</ns9:Name>
+                                 <ns9:Value>12</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>PaymentReasonID</ns9:Name>
+                                 <ns9:Value>0</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>ProxyForPayerID</ns9:Name>
+                                 <ns9:Value>0</ns9:Value>
+                              </ns9:Attribute>
+                           </ns8:AdditionalData>
+                           <ns9:TransactionStatus>
+                              <ns9:StatusCodeCategory>Success</ns9:StatusCodeCategory>
+                              <ns9:StatusCodeNamespace>com.expedia.e3.es.payment.processor.HAPSResponseCode.MSTE</ns9:StatusCodeNamespace>
+                              <ns9:StatusCode>0</ns9:StatusCode>
+                              <ns9:StatusMessage>MSTERR_NO_ERROR</ns9:StatusMessage>
+                           </ns9:TransactionStatus>
+                           <ns8:HAPSResponseInfo>
+                              <ns8:ThirdPartyProcessorInfo>
+                                 <ns8:ProcessorName>PaymentTech</ns8:ProcessorName>
+                                 <ns8:ProcessorTransactionCode>E403ZD6OO</ns8:ProcessorTransactionCode>
+                                 <ns8:ProcessorAuthorizationCode>219237</ns8:ProcessorAuthorizationCode>
+                              </ns8:ThirdPartyProcessorInfo>
+                              <ns8:HAPSStatus>
+                                 <ns8:HAPSActionCode>CCAuth</ns8:HAPSActionCode>
+                                 <ns8:HAPSStatusCodeGroup>EXTERNAL</ns8:HAPSStatusCodeGroup>
+                                 <ns8:HAPSStatusCode>OKAY.APPRV</ns8:HAPSStatusCode>
+                                 <ns8:HAPSRawStatusCode>100</ns8:HAPSRawStatusCode>
+                                 <ns8:Description>Successful</ns8:Description>
+                                 <ns9:TransactionStatus>
+                                    <ns9:StatusCodeCategory>Success</ns9:StatusCodeCategory>
+                                    <ns9:StatusCodeNamespace>com.expedia.e3.es.payment.processor.HAPSResponseCode.MSTE</ns9:StatusCodeNamespace>
+                                    <ns9:StatusCode>0</ns9:StatusCode>
+                                    <ns9:StatusMessage>MSTERR_NO_ERROR</ns9:StatusMessage>
+                                 </ns9:TransactionStatus>
+                              </ns8:HAPSStatus>
+                              <ns8:HAPSStatus>
+                                 <ns8:HAPSActionCode>CCAddressVerify</ns8:HAPSActionCode>
+                                 <ns8:HAPSStatusCodeGroup>EXTERNAL</ns8:HAPSStatusCodeGroup>
+                                 <ns8:HAPSStatusCode>AVS.MATCH</ns8:HAPSStatusCode>
+                                 <ns8:HAPSRawStatusCode>I1</ns8:HAPSRawStatusCode>
+                                 <ns8:Description>Match</ns8:Description>
+                                 <ns9:TransactionStatus>
+                                    <ns9:StatusCodeCategory>Success</ns9:StatusCodeCategory>
+                                    <ns9:StatusCodeNamespace>com.expedia.e3.es.payment.processor.HAPSResponseCode.MSTE</ns9:StatusCodeNamespace>
+                                    <ns9:StatusCode>0</ns9:StatusCode>
+                                    <ns9:StatusMessage>MSTERR_NO_ERROR</ns9:StatusMessage>
+                                 </ns9:TransactionStatus>
+                              </ns8:HAPSStatus>
+                              <ns8:HAPSStatus>
+                                 <ns8:HAPSActionCode>CCCSVVerify</ns8:HAPSActionCode>
+                                 <ns8:HAPSStatusCodeGroup>EXTERNAL</ns8:HAPSStatusCodeGroup>
+                                 <ns8:HAPSStatusCode>CVV.MATCH</ns8:HAPSStatusCode>
+                                 <ns8:HAPSRawStatusCode>M</ns8:HAPSRawStatusCode>
+                                 <ns8:Description>Successful</ns8:Description>
+                                 <ns9:TransactionStatus>
+                                    <ns9:StatusCodeCategory>Success</ns9:StatusCodeCategory>
+                                    <ns9:StatusCodeNamespace>com.expedia.e3.es.payment.processor.HAPSResponseCode.MSTE</ns9:StatusCodeNamespace>
+                                    <ns9:StatusCode>0</ns9:StatusCode>
+                                    <ns9:StatusMessage>MSTERR_NO_ERROR</ns9:StatusMessage>
+                                 </ns9:TransactionStatus>
+                              </ns8:HAPSStatus>
+                              <ns8:PaymentAmount>
+                                 <ns8:CurrencyCode>USD</ns8:CurrencyCode>
+                                 <ns8:Amount>1.00</ns8:Amount>
+                              </ns8:PaymentAmount>
+                              <ns8:OtherAttributes>
+                                 <ns9:Attribute>
+                                    <ns9:Name>CustomerOrderNumber</ns9:Name>
+                                    <ns9:Value>1153780250257</ns9:Value>
+                                 </ns9:Attribute>
+                                 <ns9:Attribute>
+                                    <ns9:Name>ExpediaPurchaseTypeId</ns9:Name>
+                                    <ns9:Value>21</ns9:Value>
+                                 </ns9:Attribute>
+                                 <ns9:Attribute>
+                                    <ns9:Name>InternalOrderNumber</ns9:Name>
+                                    <ns9:Value>-1537802502</ns9:Value>
+                                 </ns9:Attribute>
+                                 <ns9:Attribute>
+                                    <ns9:Name>MID</ns9:Name>
+                                    <ns9:Value>320407</ns9:Value>
+                                 </ns9:Attribute>
+                                 <ns9:Attribute>
+                                    <ns9:Name>PaymentProviderDescriptor</ns9:Name>
+                                    <ns9:Value>AMEXTRAVEL.COM</ns9:Value>
+                                 </ns9:Attribute>
+                                 <ns9:Attribute>
+                                    <ns9:Name>PaymentProviderMerchantCityOrPhone</ns9:Name>
+                                    <ns9:Value>800-297-2977</ns9:Value>
+                                 </ns9:Attribute>
+                                 <ns9:Attribute>
+                                    <ns9:Name>PointOfSaleOrderReferenceNumber</ns9:Name>
+                                    <ns9:Value>7367206618310</ns9:Value>
+                                 </ns9:Attribute>
+                              </ns8:OtherAttributes>
+                           </ns8:HAPSResponseInfo>
+                           <ns8:PaymentInstrumentVerificationID>a73f6d05-0a63-49f5-a408-f697a660768d</ns8:PaymentInstrumentVerificationID>
+                        </ns8:PaymentItemVerifyStep>
+                     </ns8:PaymentItemVerifyOperation>
+                     <ns8:PaymentItemChargeOperation>
+                        <ns8:IsPending>false</ns8:IsPending>
+                        <ns8:TransactionTrackingInfo>
+                           <ns8:ClientTransactionID>3d25ea22-dfff-4ff4-86b0-6f85975975b6</ns8:ClientTransactionID>
+                           <ns8:OtherTrackingAttributes>
+                              <ns9:Attribute>
+                                 <ns9:Name>TravelProductID</ns9:Name>
+                                 <ns9:Value>70207</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>TUID</ns9:Name>
+                                 <ns9:Value>233260669</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>TRL</ns9:Name>
+                                 <ns9:Value>-1429987754</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>ExpediaPurchaseTypeID</ns9:Name>
+                                 <ns9:Value>21</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>EAPID</ns9:Name>
+                                 <ns9:Value>0</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>GPID</ns9:Name>
+                                 <ns9:Value>0</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>PaymentDesc</ns9:Name>
+                                 <ns9:Value>Itinerary: 7367208914671, Start Date: 9/11/2018, End Date: 9/15/2018, Contains:  Agency Air</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>PaymentEndDate</ns9:Name>
+                                 <ns9:Value>2018-09-15</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>PaymentReasonID</ns9:Name>
+                                 <ns9:Value>0</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>ProxyForPayerID</ns9:Name>
+                                 <ns9:Value>0</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>TravServerDBInstance</ns9:Name>
+                                 <ns9:Value>TravServerUS</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>TUIDLogon</ns9:Name>
+                                 <ns9:Value>233260669</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>LegacyPaymentType</ns9:Name>
+                                 <ns9:Value>Full</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>OrderOperationCorrelationID</ns9:Name>
+                                 <ns9:Value>a2e0dd49-b29e-4d9c-bf09-e830fc99dafd</ns9:Value>
+                              </ns9:Attribute>
+                              <ns9:Attribute>
+                                 <ns9:Name>PaymentProviderID</ns9:Name>
+                                 <ns9:Value>12</ns9:Value>
+                              </ns9:Attribute>
+                           </ns8:OtherTrackingAttributes>
+                        </ns8:TransactionTrackingInfo>
+                        <ns8:PaymentItemOperationID>3999854375</ns8:PaymentItemOperationID>
+                        <ns8:PaymentAmount>
+                           <ns8:CurrencyCode>USD</ns8:CurrencyCode>
+                           <ns8:Amount>299.50</ns8:Amount>
+                        </ns8:PaymentAmount>
+                        <ns8:PaymentItemHoldStep>
+                           <ns8:PaymentItemOperationStepID>4483105036</ns8:PaymentItemOperationStepID>
+                           <ns8:ClientRequestID>838479c6-1c12-44f2-818e-b7600d88b2bf:100000</ns8:ClientRequestID>
+                           <ns8:ProcessorRequestID>c493d446-ff2f-4bbf-be12-1be5ced18ffd</ns8:ProcessorRequestID>
+                           <ns8:CreateDate>2018-07-19T16:15:38.250-07:00</ns8:CreateDate>
+                           <ns9:TransactionStatus>
+                              <ns9:StatusCodeCategory>Success</ns9:StatusCodeCategory>
+                              <ns9:StatusCodeNamespace>com.expedia.e3.es.payment.common.errorhandling.CommonStatusReportingTemplates</ns9:StatusCodeNamespace>
+                              <ns9:StatusCode>0</ns9:StatusCode>
+                              <ns9:StatusMessage>Successfully processed!</ns9:StatusMessage>
+                           </ns9:TransactionStatus>
+                           <ns8:CanReuse>false</ns8:CanReuse>
+                           <ns8:PaymentAmount>
+                              <ns8:CurrencyCode>USD</ns8:CurrencyCode>
+                              <ns8:Amount>299.50</ns8:Amount>
+                           </ns8:PaymentAmount>
+                           <ns8:PaymentItemCommitHoldStep>
+                              <ns8:PaymentItemOperationStepID>4483105755</ns8:PaymentItemOperationStepID>
+                              <ns8:ClientRequestID>6ccb2a92-c3e5-4009-b0a0-7f25bcc33ea1:100000</ns8:ClientRequestID>
+                              <ns8:ProcessorRequestID>388b0943-b625-41df-8af2-94a5eac0c8c7</ns8:ProcessorRequestID>
+                              <ns8:CreateDate>2018-07-19T16:15:55.813-07:00</ns8:CreateDate>
+                              <ns8:AdditionalData>
+                                 <ns9:Attribute>
+                                    <ns9:Name>EmainPaymentID</ns9:Name>
+                                    <ns9:Value>765047097</ns9:Value>
+                                 </ns9:Attribute>
+                                 <ns9:Attribute>
+                                    <ns9:Name>CreditCardTypeID</ns9:Name>
+                                    <ns9:Value>2</ns9:Value>
+                                 </ns9:Attribute>
+                                 <ns9:Attribute>
+                                    <ns9:Name>TransactionGUID</ns9:Name>
+                                    <ns9:Value>388b0943-b625-41df-8af2-94a5eac0c8c7</ns9:Value>
+                                 </ns9:Attribute>
+                                 <ns9:Attribute>
+                                    <ns9:Name>PaymentUpdateDate</ns9:Name>
+                                    <ns9:Value>2018-07-19T16:15:55</ns9:Value>
+                                 </ns9:Attribute>
+                              </ns8:AdditionalData>
+                              <ns9:TransactionStatus>
+                                 <ns9:StatusCodeCategory>Success</ns9:StatusCodeCategory>
+                                 <ns9:StatusCodeNamespace>com.expedia.e3.es.payment.common.errorhandling.CommonStatusReportingTemplates</ns9:StatusCodeNamespace>
+                                 <ns9:StatusCode>0</ns9:StatusCode>
+                                 <ns9:StatusMessage>Successfully processed!</ns9:StatusMessage>
+                              </ns9:TransactionStatus>
+                           </ns8:PaymentItemCommitHoldStep>
+                        </ns8:PaymentItemHoldStep>
+                     </ns8:PaymentItemChargeOperation>
+                  </ns8:PaymentItemDetail>
+               </ns8:PaymentPlanDetail>
+            </ns1:PaymentDetailData>
+         </ns1:PaymentDetailList>
+      </ns1:Order>
+   </ns1:OrderList>
+</ns7:RetrieveOrderResponseType>
