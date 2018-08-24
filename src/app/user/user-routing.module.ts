@@ -4,6 +4,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { LogoutComponent } from './logout/logout.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/user/profile', pathMatch: 'full'},
   { path: 'profile', component: ProfileComponent },
   { path: 'logout', component: LogoutComponent },
 ];

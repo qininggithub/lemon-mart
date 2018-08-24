@@ -55,7 +55,7 @@ export class AuthService extends CacheService {
       accessToken: sign(authStatus, 'secret', { expiresIn: '1h', algorithm: 'none'})
     } as IServerAuthResponse;
 
-    return of(authResponse)
+    return of(authResponse);
   }
 
   private getUserRole(email: string): Role {

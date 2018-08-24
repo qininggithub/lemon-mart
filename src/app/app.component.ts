@@ -11,7 +11,7 @@ import { ObservableMedia } from '@angular/flex-layout';
 })
 export class AppComponent implements OnInit {
   private _displayAccountIcons = false;
-  constructor(iconRegistry: MatIconRegistry, sanitizer: DomSanitizer, 
+  constructor(iconRegistry: MatIconRegistry, sanitizer: DomSanitizer,
     private authService: AuthService,
     public media: ObservableMedia) {
     iconRegistry.addSvgIcon(
