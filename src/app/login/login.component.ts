@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder } from '@angular/forms';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { AuthService } from '../auth/auth.service';
 import { Router, ActivatedRoute } from '@angular/router';
 
@@ -22,6 +22,22 @@ export class LoginComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.buildLoginForm();
   }
 
+  buildLoginForm() {
+    this.loginForm = this.formBuilder.group({
+        email: ['', [Validators.required, Validators.email]],
+        password: ['', [Validators.required, Validators.minLength(2)]]
+      });
+  }
+
+  async login(submittedForm: FormGroup) {
+    this.authService.login(submittedForm.value.email, submittedForm.value.password)
+      .subscribe(authStatus => {
+        if (authStatus.isAuthenticated) {
+          this.router.navigate([this.redirectUrl || '/manager']);
+        }
+      }, error => (this.loginError = error));
+  }
 }

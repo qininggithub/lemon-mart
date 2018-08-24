@@ -38,7 +38,7 @@ export class AuthService {
   }
 
   private fakeAuthProvider(email: string, password: string): Observable<IServerAuthResponse> {
-    if (!email.toLowerCase().endsWith('@test,cpm')) {
+    if (!email.toLowerCase().endsWith('@test.com')) {
       return throwError('Failed to login!');
     }
 
