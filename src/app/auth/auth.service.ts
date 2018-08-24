@@ -5,6 +5,7 @@ import { catchError, map } from 'rxjs/operators';
 import { HttpClient } from '@angular/common/http';
 import { sign } from 'fake-jwt-sign';
 import * as decode from 'jwt-decode';
+import { CacheService } from './cache.service';
 
 export interface IAuthStatus {
   isAuthenticated: boolean;
@@ -25,7 +26,8 @@ const defaultAuthStatus: IAuthStatus = {
 @Injectable({
   providedIn: 'root'
 })
-export class AuthService {
+export class AuthService extends CacheService {
+  private jwtKey = 'jwt';
   private readonly authProvider: (
     email: string,
     password: string
@@ -34,6 +36,7 @@ export class AuthService {
   authStatus = new BehaviorSubject<IAuthStatus>(defaultAuthStatus);
 
   constructor(private httpClient: HttpClient) {
+    super();
     this.authProvider = this.fakeAuthProvider;
   }
 
@@ -74,6 +77,7 @@ export class AuthService {
     const loginResponse = this.authProvider(email, password)
       .pipe(
         map(value => {
+          this.setToken(value.accessToken);
           return decode(value.accessToken) as IAuthStatus;
         }),
         catchError(null)
@@ -93,6 +97,23 @@ export class AuthService {
   }
 
   logout(): void {
+    this.clearToken();
     this.authStatus.next(defaultAuthStatus);
+  }
+
+  private setToken(jwt: string) {
+    this.setItem(this.jwtKey, jwt);
+  }
+
+  private getDecodedToken(): IAuthStatus {
+    return decode(this.getItem(this.jwtKey));
+  }
+
+  getToken(): string {
+    return this.getItem(this.jwtKey);
+  }
+
+  private clearToken() {
+    this.removeItem(this.jwtKey);
   }
 }
