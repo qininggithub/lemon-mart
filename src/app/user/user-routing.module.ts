@@ -2,10 +2,11 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ProfileComponent } from './profile/profile.component';
 import { LogoutComponent } from './logout/logout.component';
+import { AuthGuard } from '../auth/auth-guard.service';
 
 const routes: Routes = [
   { path: '', redirectTo: '/user/profile', pathMatch: 'full'},
-  { path: 'profile', component: ProfileComponent },
+  { path: 'profile', component: ProfileComponent, canActivate: [AuthGuard]},
   { path: 'logout', component: LogoutComponent },
 ];
 
