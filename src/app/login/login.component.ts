@@ -3,6 +3,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { AuthService } from '../auth/auth.service';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Role } from '../auth/role.enum';
+import { UiService } from '../common/ui.service';
 
 @Component({
   selector: 'app-login',
@@ -18,7 +19,8 @@ export class LoginComponent implements OnInit {
   constructor(private formBuilder: FormBuilder,
     private authService: AuthService,
     private router: Router,
-    private route: ActivatedRoute) {
+    private route: ActivatedRoute,
+    private uiService: UiService) {
       route.paramMap.subscribe(params => (this.redirectUrl = params.get('redirectUrl')));
   }
 
@@ -37,6 +39,8 @@ export class LoginComponent implements OnInit {
     this.authService.login(submittedForm.value.email, submittedForm.value.password)
       .subscribe(authStatus => {
         if (authStatus.isAuthenticated) {
+          this.uiService.showToast(`Welcome! Role: ${authStatus.userRole}`);
+          // this.uiService.showDialog('Welcome!', `Role: ${authStatus.userRole}`);
           this.router.navigate([this.redirectUrl || this.homeRoutePerRole(authStatus.userRole)]);
         }
       }, error => (this.loginError = error));

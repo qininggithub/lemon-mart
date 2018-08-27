@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { LoginComponent } from './login/login.component';
 import { NavigationMenuComponent } from './navigation-menu/navigation-menu.component';
+import { SimpleDialogComponent } from './common/simple-dialog/simple-dialog.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavigationMenuComponent } from './navigation-menu/navigation-menu.compo
     HomeComponent,
     PageNotFoundComponent,
     LoginComponent,
-    NavigationMenuComponent
+    NavigationMenuComponent,
+    SimpleDialogComponent
   ],
   imports: [
     BrowserModule,
